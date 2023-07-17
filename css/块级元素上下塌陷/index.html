@@ -1,0 +1,21 @@
+<html>
+  <!--上下相邻元素的边距塌陷-->
+  <div style="">
+    <div class="item1">1</div>
+    <div class='item2'>2</div>    
+  </div>
+</html>
+<style>
+  .item1{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 20px;
+  }
+  .item2{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+    margin-top:30px;
+  }
+</style>
